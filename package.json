@@ -1,37 +1,24 @@
 {
-  "name": "es6test",
+  "name": "karampreet_singh",
   "version": "1.0.0",
-  "description": "This is a chance to test es6 with node 9.3",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "dev": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rhildred/es6test.git"
+    "url": "git+https://github.com/karampreet-manu/chatbot_sandwich.git"
   },
-  "keywords": [
-    "node",
-    "es6",
-    "problem",
-    "solving"
-  ],
-  "author": "Rich Hildred",
+  "author": "karampreet singh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rhildred/es6test/issues"
+    "url": "https://github.com/karampreet-manu/chatbot_sandwich/issues"
   },
-  "homepage": "https://github.com/rhildred/es6test#readme",
+  "homepage": "https://github.com/karampreet-manu/chatbot_sandwich#readme",
   "dependencies": {
-    "express": "*"
-  },
-  "babel": {
-    "presets": [
-      "env"
-    ],
-    "sourceMaps": true,
-    "retainLines": true
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "node": "^17.4.0"
   }
 }
